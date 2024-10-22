@@ -1,7 +1,7 @@
 package org.example;
 
 class Circle implements Shape {
-    private double radius;
+    private final double radius;
     private String fillColor;
     private String borderColor;
 

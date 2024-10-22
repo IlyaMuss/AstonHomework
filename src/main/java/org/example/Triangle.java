@@ -1,7 +1,9 @@
 package org.example;
 
 class Triangle implements Shape {
-    private double a, b, c;
+    private final double a;
+    private final double b;
+    private final double c;
     private String fillColor;
     private String borderColor;
 

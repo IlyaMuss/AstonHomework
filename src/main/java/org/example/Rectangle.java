@@ -1,8 +1,8 @@
 package org.example;
 
 class Rectangle implements Shape {
-    private double width;
-    private double height;
+    private final double width;
+    private final double height;
     private String fillColor;
     private String borderColor;
 
